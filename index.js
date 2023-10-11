@@ -110,7 +110,7 @@ module.exports = (milliseconds, options = {}) => {
       valueString = '0'.repeat(Math.max(0, minLength - wholeDigits)) + valueString;
     } else {
       prefix = '';
-      suffix = options.verbose ? ' ' + (value != 1 && options.language == 'EN' ? name.long : name.long + 's') : name.short;
+      suffix = options.verbose ? ' ' + (value === 1 ? name.long : name.long + (options.language == 'EN' ? 's' : '')) : name.short;
     }
 
     result.push(prefix + valueString + suffix);
