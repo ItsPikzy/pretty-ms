@@ -26,11 +26,11 @@ const language = {
     milliseconds: {
       short: 'ms',
       long: 'millisecond'
-    },,
+    },
     microseconds: {
       short: 'µs',
       long: 'microsecond'
-    },,
+    },
     nanoseconds: {
       short: 'ns',
       long: 'nanosecond'
@@ -60,11 +60,11 @@ const language = {
     milliseconds: {
       short: 'md',
       long: 'milidetik'
-    },,
+    },
     microseconds: {
       short: 'μdtk',
       long: 'mikrodetik'
-    },,
+    },
     nanoseconds: {
       short: 'nd',
       long: 'nanodetik'
