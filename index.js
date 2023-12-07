@@ -130,7 +130,7 @@ module.exports = (milliseconds, options = {}) => {
 
   const parsed = parseMilliseconds(milliseconds);
 
-  add(Math.trunc(parsed.days / 365), langu.year); // tahun
+  add(Math.trunc(parsed.days / 365), langu.years); // tahun
   add(parsed.days % 365, langu.days); // hari
   add(parsed.hours, langu.hours); // jam
   add(parsed.minutes, langu.minutes); // menit
